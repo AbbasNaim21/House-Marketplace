@@ -105,7 +105,7 @@ function Offers() {
       ) : listings && listings.length > 0 ? (
         <>
           <main>
-            <ul className="categoryListings">
+            <ul className="categoryListingsOffers">
               {listings.map((listing) => (
                 <ListingItem
                   listing={listing.data}

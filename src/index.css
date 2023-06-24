@@ -409,6 +409,15 @@ button {
   position: relative;
 }
 
+.categoryListingOffers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+
 .categoryListingLink {
   display: contents;
 }
